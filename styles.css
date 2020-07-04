@@ -1,3 +1,32 @@
-/* h5 {
-    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  #Navbar{
+      height: auto;
+      max-width: 1400px;
+      padding: 10px;
+  }
+
+  #install{
+    border-radius: 25px;
+  }
+
+  /* #install1{
+    border-radius: 25px;
+    height: 100px;
+    width: auto;
+  } */
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  #FirstImage{
+    border-radius: 50%;
+  }
+
+
+
+
+  /* #NavButtons{
+    display: inline-block;
+    vertical-align: middle;
   } */

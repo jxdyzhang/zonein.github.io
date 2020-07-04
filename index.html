@@ -19,12 +19,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Courier New", Courier, monospace}
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-card-2 w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-red w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a href="index.html" class="w3-bar-item w3-button "><img href="index.html" class="logo" src="images/logo.jpg" width=50px>ZoneIn</a>
-      <a href="news.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">How It Works</a>
-      <a href="sports.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Features</a>
-      <a href="college.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Contact</a>
+  <div id ="Navbar" class="w3-bar w3-white w3-card-2 w3-left-align w3-large">
+    <a id = "NavButtons" class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-red w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button "><img class="logo" src="images/logo.jpg" width=50px>ZoneIn</a>
+      <a id ="install" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-yellow w3-hover-red w3-right">Install</a>
+      <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red w3-right">Contact</a>
+      <a href="Features.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red w3-right">Features</a>
+      <a href="HowItWorks.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red w3-right">How It Works</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -38,8 +39,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Courier New", Courier, monospace}
 
 <!-- Header -->
 <header class="w3-container w3-red w3-center" style="padding:118px 16px">
-  <h1><b>Zone In</b></h1>
-  <p><span class="w3-tag"> zone in zone in zone in</span></p>
+  <div class="column">
+    <h1><b>Zone In</b></h1>
+    <h2>zone in zone in zone in</h2>
+    <a id ="install" class="w3-button w3-hide-small w3-padding-large w3-white w3-hover-yellow w3-center">Install</a>
+  </div>
+  <div class="column">
+    <img id="FirstImage" class="logo" src="images/logo.jpg" width=300px>
+  </div>
 </header>
 
 <!-- First Grid -->
