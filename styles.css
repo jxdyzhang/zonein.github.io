@@ -15,10 +15,16 @@
 
   #FirstImage{
     border-radius: 50%;
+    height: auto;
   }
 
   #picture{
       width: 100%;
+  }
+
+  #jumplink{
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
 
