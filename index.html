@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Courier New", Courier, monospace}
+/* body,h1,h2,h3,h4,h5,h6 {font-family: "Courier New", Courier, monospace} */
 .fa-anchor,.fa-coffee {font-size:200px}
 </style>
   </head>
@@ -80,7 +80,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Courier New", Courier, monospace}
       </div>
       <div class="column w3-center">
         <a id="HowItWorks"><h1>Feature 3</h1></a>
-        <h5 class="w3-padding-16"> For students and employees who have difficulty  filtering distractions
+        <h5 class="w3-padding-32"> For students and employees who have difficulty  filtering distractions
       </h5>
       <a id="Contact"><h1>Feature 4</h1></a>
       <h5 class="w3-padding-32"> For students and employees who have difficulty  filtering distractions
@@ -90,11 +90,25 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Courier New", Courier, monospace}
   </div>
 
   <div id="jumplink" class="w3-content">
-    <div class="Contact">
-      <div class="column w3-center">
-        <a id="Contact"><h1>Contact</h1></a>
-      <h5 class="w3-padding-32"> For students and employees who have difficulty  filtering distractions, ZoneIn is an educational tool that assists them with dedicating specific times of the day to work.
-      </h5>
+    <div class="Contact w3-center">
+      <a id="Contact"><h1>Contact</h1></a>
+      <div class="column">
+        <div class="container">
+          <form action="action_page.php">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
       </div>
       <div class="column">
         <img id="picture"  src="images/contactpic.png" width="400">

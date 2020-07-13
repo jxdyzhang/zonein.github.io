@@ -28,7 +28,29 @@
     padding-bottom: 100px;
   }
 
+  body{
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500; /* medium */
+  }
 
+  h1{ 
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 800; /* extra bold */
+  }
+
+  h2{
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600; /* semi bold */
+  }
+
+  h5{
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
 
 
 
