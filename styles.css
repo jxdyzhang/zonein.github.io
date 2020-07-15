@@ -6,7 +6,15 @@
   }
 
   #install{
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  #install1{
     border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .column {
@@ -28,22 +36,56 @@
     padding-bottom: 100px;
   }
 
+  #top_header{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #header1{
+    padding-top: 128px;
+    padding-bottom: 48px;
+  }
+
   body{
     font-family: raleway, sans-serif;
     font-style: normal;
     font-weight: 500; /* medium */
   }
 
-  h1{ 
+  h4{ 
     font-family: raleway, sans-serif;
     font-style: normal;
     font-weight: 800; /* extra bold */
+    font-size: 12pt;
+  }
+
+  t1{ 
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500; /* extra bold */
+    font-size: 50px;
   }
 
   h2{
     font-family: raleway, sans-serif;
     font-style: normal;
     font-weight: 600; /* semi bold */
+    font-size: 16pt;
+
+  }
+
+  h3{
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500; /* medium */
+    font-size: 20px;
+  }
+
+  h1{
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 800; /* extra bold */
+    font-size: 24pt;
   }
 
   h5{
