@@ -42,8 +42,8 @@
   }
 
   #header1{
-    padding-top: 128px;
-    padding-bottom: 48px;
+    padding-top: 158px;
+    padding-bottom: 78px;
   }
 
   body{
@@ -92,6 +92,13 @@
     font-family: raleway, sans-serif;
     font-style: normal;
     font-weight: 500;
+  }
+
+  h6{
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24pt;
   }
 
 
