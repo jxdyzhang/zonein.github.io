@@ -25,8 +25,7 @@
     <a id = "NavButtons" class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-red w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="index.html" class="w3-bar-item w3-button "><img class="logo" src="images/logo.png" width="50px" >ZONEIN</a>
       <a href="#Contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red w3-right"><h4>CONTACT</h4></a>
-      <a href="#InstallWind" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red w3-right"><h4>INSTALL(WINDOWS)</h4></a>
-      <a href="#InstallMac" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red w3-right"><h4>INSTALL(MAC)</h4></a>
+      <a href="#InstallWind" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red w3-right"><h4>INSTALL</h4></a>
       <a href="#Images" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red w3-right"><h4>GALLERY</h4></a>
       <a href="#Features" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red w3-right"><h4>FEATURES</h4></a>
       <a href="#HOWITWORKS" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red w3-right"><h4>HOW IT WORKS</h4></a>
@@ -39,8 +38,7 @@
     <a href="#HOWITWORKS" class="w3-bar-item w3-button w3-padding-large"><h4>HOW IT WORKS</h4></a>
     <a href="#Features" class="w3-bar-item w3-button w3-padding-large"><h4>FEATURES</h4></a>
     <a href="#Images" class="w3-bar-item w3-button w3-padding-large"><h4>GALLERY</h4></a>
-    <a href="#InstallMac" class="w3-bar-item w3-button w3-padding-large"><h4>INSTALL(MAC)</h4></a>
-    <a href="#InstallWind" class="w3-bar-item w3-button w3-padding-large"><h4>INSTALL(WINDOWS)</h4></a>
+    <a href="#InstallMac" class="w3-bar-item w3-button w3-padding-large"><h4>INSTALL</h4></a>
     <a href="#Contact" class="w3-bar-item w3-button w3-padding-large"><h4>CONTACT</h4></a>
 
   </div>
@@ -121,89 +119,94 @@
 
 
 <!-- Work Section -->
-<div class="w3-container" style="padding:128px 16px" id="Images">
-  <h1 class="w3-center">ZONEIN GALLERY</h1>
-  <p class="w3-center w3-large">Take a look at our app!</p>
+<div class="slideshow-container" style="padding:128px 16px" id="Images">
+  <h1 class="slideshow-container">ZONEIN GALLERY</h1>
+  <p class="slideshow-container-center slideshow-container-large">Take a look at our app!</p>
 
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6">
-      <img src="images/MainScreen.png" style="width:100%"  alt="MainScreen">
-    </div>
-    <div class="w3-col l3 m6">
+  <div class="slideshow-container-row-padding" style="margin-top:64px">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
       <img src="images/WelcomeScreen.png" style="width:100%"  alt="WelcomeScreen">
+      <div class="text">Welcome Screen</div>
     </div>
-    <div class="w3-col l3 m6">
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <img src="images/MainScreen.png" style="width:100%"  alt="MainScreen">
+      <div class="text">Log In Screen</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
       <img src="images/SingleSession.png" style="width:100%"  alt="SingleSessionScreen">
+      <div class="text">Single Session Screen</div>
     </div>
-    <div class="w3-col l3 m6">
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
       <img src="images/Settings.png" style="width:100%"  alt="SettingsScreen">
+      <div class="text">Settings Screen</div>
     </div>
-  </div>
 
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col l3 m6">
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 7</div>
       <img src="images/Host.png" style="width:100%"  alt="HostSessionScreen">
+      <div class="text">Host Session Screen</div>
     </div>
-    <div class="w3-col l3 m6">
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
       <img src="images/Join.png" style="width:100%"  alt="joinIp">
+      <div class="text">join Ip</div>
     </div>
-    <div class="w3-col l3 m6">
+
+     <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
       <img src="images/Chat.png"  style="width:100%"  alt="GroupChat">
-    </div>
+      <div class="text">Group Chat</div>
+    </div> 
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
   </div>
 </div>
-
-
-<div class="w3-container" style="padding:128px 16px" id="InstallMac">
-  <h1 class="w3-center">INSTALL</h1>
-  <p class="w3-center w3-large">How To Install for Mac</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">STEP 1:</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">STEP 2:</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">STEP 3:</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">STEP 4:</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
+<!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span> 
   </div>
-</div>
+
+
 
 <div class="w3-container" style="padding:128px 16px" id="InstallWind">
   <h1 class="w3-center">INSTALL</h1>
-  <p class="w3-center w3-large">How To Install for Windows</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Prerequisites:</p>
+      <p>The latest version of <a href="https://www.java.com/en/download/">Java Runtime Enviornment</a>, <a href="https://www.oracle.com/java/technologies/javase-jdk14-downloads.html">Java JDK </a>, <a href="https://www.python.org/downloads/release/python-384/">python</a>.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">STEP 1:</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p>Install ZoneIn from the link at the top of the page.</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">STEP 2:</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p>Choose a Session type.</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">STEP 3:</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">STEP 4:</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p>Start your session and zoneIN.</p>
     </div>
   </div>
 </div>
@@ -261,6 +264,9 @@
 </footer>
 </body>
 <script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
     var x = document.getElementById("navDemo");
@@ -270,6 +276,33 @@ function myFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block"; 
+    dots[slideIndex-1].className += " active";
+  }
 </script>
 
 </body>
