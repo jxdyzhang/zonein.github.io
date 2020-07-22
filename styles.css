@@ -1,7 +1,6 @@
   #Navbar{
       height: auto;
       line-height: 100%;
-      width: auto;
       max-width: 1400px;
       padding: 10px;
   }
@@ -12,6 +11,11 @@
     padding-right: 25px;
   }
 
+#contact{
+  border-radius: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
   #install1{
     border-radius: 25px;
     padding-left: 25px;
@@ -53,14 +57,14 @@
     font-weight: 500; /* medium */
   }
 
-  h4{ 
+  h4{
     font-family: raleway, sans-serif;
     font-style: normal;
     font-weight: 800; /* extra bold */
     font-size: 12pt;
   }
 
-  t1{ 
+  t1{
     font-family: raleway, sans-serif;
     font-style: normal;
     font-weight: 500; /* extra bold */
@@ -102,6 +106,10 @@
     font-size: 24pt;
   }
 
+
+  .wrapper {
+    display: grid;
+  }
 
 
   /* #NavButtons{
